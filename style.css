@@ -1,0 +1,280 @@
+html {
+  height: 100%;
+}
+
+body {
+  font-family: arial, sans-serif;
+  color: #222;
+  margin: 0 0 100px;
+}
+
+.container {
+  padding-top: 20px;
+  min-height: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.top-nav {
+  display: block;
+  width: 100%;
+  height: 30px;
+}
+
+.top-nav ul{
+  float: right;
+  padding: 0 30px;
+  margin: 0;
+}
+
+.top-nav ul li {
+  margin-left: 8px;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.top-nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+#nine-square {
+  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-position: -132px -38px;
+  background-size: 528px 68px;
+  opacity: 0.55;
+  height: 30px;
+  width: 30px;
+}
+
+#circle-bell {
+  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
+  background-position: -194px -21px;
+  background-size: 528px 68px;
+  opacity: 0.55;
+  height: 20px;
+  width: 20px;
+  background-color: rgba(0,0,0,.85);
+  border-radius: 50%;
+}
+
+#profile-pic {
+  width: 32px;
+  height: 32px;
+  background-image: url("https://cdn-img-3.wanelo.com/p/770/842/3b5/50160de6ec9a55381fcf492/x354-q80.jpg");
+  background-size: 32px 32px;
+  border-radius: 50%;
+}
+
+.main {
+  clear: both;
+}
+
+.logo-container {
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo {
+  width: 100%;
+}
+
+.logo img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+.search {
+  width: 512px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+
+#search-bar {
+  display: inline-block;
+  width: 480px;
+  height: 30px;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 0;
+}
+
+#microphone {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 1px 0;
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+
+.buttons {
+  width: 300px;
+  height: 34px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+button {
+  border: 1px solid white;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  width: 134px;
+  height: 34px;
+}
+
+button:hover {
+  border: 1px solid #b8b8b8;
+  box-shadow: 0px 1px 1px #b8b8b8;
+}
+
+#main-btn {
+  float: left;
+}
+
+#sec-btn {
+  float: right;
+}
+
+.footer {
+  clear: both;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #f3f3f3;
+  border-top: 1px solid #ccc;
+}
+
+.footer ul {
+  list-style: none;
+  display: inline-block;
+  padding: 0 20px
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0 15px;
+  color: #666;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 13px;
+  height: 40px;
+}
+
+#left-footer {
+  float: left;
+}
+
+#right-footer {
+  float: right;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.fakebox {
+    text-align: center;
+}
+#fakebox {
+    width: 550px;
+    padding: 10px 50px 10px 50px;
+    border-radius: 22px;
+    border: 1px solid #757575;
+    font-size: 16px;
+    height: var(--searchbox-height);
+    opacity: 1;
+    position: relative;
+    transition: none;
+    margin: 0 auto;
+    
+}
+.search-icon {
+    background: url("images/search.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-color: rgb(255, 255, 255);
+    bottom: 0;
+    left: -230px;
+    margin: auto;
+    position: relative;
+    top: 33px;
+    width: 24px;
+    height: 24px;
+    z-index: 4;
+}
+#fakebox-text {
+    bottom: 0;
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    height: 44px;
+    left: 0;
+    line-height: 44px;
+    margin: auto 0;
+    overflow: hidden;
+    position: absolute;
+    right: 44px;
+    text-align: initial;
+    text-overflow: ellipsis;
+    top: 0;
+    user-select: none;
+    vertical-align: middle;
+    visibility: inherit;
+    white-space: nowrap;
+}
+#fakebox > input {
+    bottom: 0;
+    box-sizing: border-box;
+    left: 0;
+    margin: 20px;
+    opacity: 0;
+    padding-inline-start: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#fakebox-cursor {
+    background: #333;
+    bottom: 14px;
+    left: 48px;
+    position: absolute;
+    top: 14px;
+    visibility: hidden;
+    width: 1px;
+}
+.microphone-icon {
+    background: url(https://i.pinimg.com/originals/ea/5f/5b/ea5f5bd3b4110f2afb958049b4096d3a.png) no-repeat center;
+    background-size: 21px 21px;
+    bottom: 0;
+    cursor: pointer;
+    margin-inline-end: 16px;
+    padding: 22px 12px 0;
+    position: relative;
+    right: -270px;
+    top: -35px;
+    width: 21px;
+    z-index: 3;
+}
+#realbox {
+    background-color: white;
+    border: none;
+    color: black;
+    display: block;
+    outline: none;
+    padding-inline-end: 48px;
+    width: 100%;
+    z-index: 2;
+}
