@@ -49,14 +49,14 @@ body {
 }
 
 #circle-bell {
-  background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
-  background-position: -194px -21px;
-  background-size: 528px 68px;
-  opacity: 0.55;
+  background-image: url("https://cdn-icons-png.flaticon.com/128/1182/1182769.png");
+  background-position: 0px 0px;
+  background-size: 96px 96px;
+  opacity: 1;
   height: 20px;
   width: 20px;
   background-color: rgba(0,0,0,.85);
-  border-radius: 50%;
+  
 }
 
 #profile-pic {
