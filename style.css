@@ -50,13 +50,12 @@ body {
 
 #circle-bell {
   background-image: url("https://cdn-icons-png.flaticon.com/128/1182/1182769.png");
-  background-position: 0px 0px;
-  background-size: 96px 96px;
   opacity: 1;
-  height: 20px;
-  width: 20px;
-  background-color: rgba(0,0,0,.85);
-  
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: 28px;
+  background-repeat: no-repeat;
 }
 
 #profile-pic {
@@ -132,8 +131,10 @@ button {
 }
 
 button:hover {
-  border: 1px solid #b8b8b8;
+  border: 1px solid #c40606;
   box-shadow: 0px 1px 1px #b8b8b8;
+  background-color: crimson;
+  color: white;
 }
 
 #main-btn {
@@ -261,13 +262,15 @@ a:hover {
     bottom: 0;
     cursor: pointer;
     margin-inline-end: 16px;
-    padding: 22px 12px 0;
+    padding: 19px 12px 0;
     position: relative;
-    right: -270px;
-    top: -35px;
+    right: -499px;
+    top: -40px;
     width: 21px;
+    height: 23px;
     z-index: 3;
 }
+
 #realbox {
     background-color: white;
     border: none;
